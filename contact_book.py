@@ -35,7 +35,7 @@ def get_contacts():
             print(f"ID: {contact.id}, Name: {contact.name}, Phone: {contact.phone}, Email: {contact.email}")
     else:
         print("No contacts found.")
-    input("Press Enter to continue...")  # Pause for user to see contacts
+    input("Press Enter to continue...")  # Pause fSor user to seeS contacts
 
 def delete_contact(contact_id):
     contact = session.query(Contact).filter_by(id=contact_id).first()
